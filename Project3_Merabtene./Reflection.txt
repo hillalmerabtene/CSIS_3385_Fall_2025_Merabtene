@@ -1,0 +1,19 @@
+The areas that I concentrated on during this project were the validation along with the security of the given form.
+The version provided had employed an unsupported method of deleting data, but I substituted it with POST to secure it.
+I also inserted explicit types of input, type=email and<|human|>I also inserted explicit input type,type=email and
+type=number,to be applied by browsers automatically.
+
+To enhance the integrity of data I added such attributes as required, minlength, maxlength, min, and max. 
+These assist in avoiding the invalid or unnecessarily lengthy inputs that may create the issue of the database.
+
+The most security improvement was the one changing the hidden password field to the visible password input.
+using type="password". This will avoid accidentally revealing data and enhance trust.
+Also, it was equipped with autocomplete properties to improve the user experience and act as a security measure.
+
+If it was live production, I would then go ahead and secure it with HTTPS, server-side, further.
+sanitizing all the incoming data and making sure that every piece of information is validated and stored in a database.
+
+I, Hillal Merabtene, affirm that all work submitted in this case study is my own. 
+I have not used AI tools, AI-generated text, or AI-based writing assistants (such as ChatGPT, Gemini, Grammarly AI, etc.) in the creation of this assignment. 
+I understand that using AI tools for this project violates the spirit of ethical learning and may result in academic consequences.
+Signed: ___Hillal___________________ Date: ____11/08/2025___________
